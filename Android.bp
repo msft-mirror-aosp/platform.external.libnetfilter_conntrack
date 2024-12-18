@@ -74,7 +74,7 @@ sub_srcs = [
 cc_library_shared {
     name: "libnetfilter_conntrack",
     export_include_dirs: ["include"],
-    vendor:true,
+    vendor: true,
     srcs: sub_srcs,
     cflags: [
         "-Wno-unused-parameter",
